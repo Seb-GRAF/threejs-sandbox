@@ -31317,6 +31317,12 @@ exports.getOrigin = getOrigin;
 },{}],"bcOYf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "fontOpen", ()=>fontOpen
+);
+parcelHelpers.export(exports, "fontPlayfair", ()=>fontPlayfair
+);
+parcelHelpers.export(exports, "preloadImages", ()=>preloadImages
+);
 var _imagesloaded = require("imagesloaded");
 var _imagesloadedDefault = parcelHelpers.interopDefault(_imagesloaded);
 var _fontfaceobserver = require("fontfaceobserver");
@@ -31336,11 +31342,6 @@ const preloadImages = new Promise((resolve, reject)=>{
         background: true
     }, resolve);
 });
-exports.default = {
-    fontOpen,
-    fontPlayfair,
-    preloadImages
-};
 
 },{"imagesloaded":"aYzyZ","fontfaceobserver":"3cUcc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aYzyZ":[function(require,module,exports) {
 /*!
